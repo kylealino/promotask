@@ -1,0 +1,80 @@
+CRITICAL - 2022-12-06 02:46:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\wmd\warticle.php(37): CodeIgniter\Model->__call('view_wrecs', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\wmd\\warticle.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('wmd/warticle', [], true)
+ 7 APPPATH\Controllers\Md_article.php(44): view('wmd/warticle')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Windex()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:47:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\wmd\warticle.php(37): CodeIgniter\Model->__call('view_wrecs', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\wmd\\warticle.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('wmd/warticle', [], true)
+ 7 APPPATH\Controllers\Md_article.php(44): view('wmd/warticle')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Windex()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 23:27:10 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\MyMDArticleModel.php on line 187.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MyMDArticleModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyMDArticleModel')
+ 3 APPPATH\Controllers\Md_article.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyMDArticleModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Md_article->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 23:42:06 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\MyMDArticleModel.php on line 187.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MyMDArticleModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyMDArticleModel')
+ 3 APPPATH\Controllers\Md_article.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyMDArticleModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Md_article->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 23:44:03 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\MyMDArticleModel.php on line 187.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MyMDArticleModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyMDArticleModel')
+ 3 APPPATH\Controllers\Md_article.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyMDArticleModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Md_article->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 23:52:11 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\MyMDArticleModel.php on line 187.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MyMDArticleModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyMDArticleModel')
+ 3 APPPATH\Controllers\Md_article.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyMDArticleModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Md_article->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 23:53:59 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\MyMDArticleModel.php on line 187.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MyMDArticleModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyMDArticleModel')
+ 3 APPPATH\Controllers\Md_article.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyMDArticleModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Md_article->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 23:54:05 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\MyMDArticleModel.php on line 187.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MyMDArticleModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyMDArticleModel')
+ 3 APPPATH\Controllers\Md_article.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyMDArticleModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Md_article->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

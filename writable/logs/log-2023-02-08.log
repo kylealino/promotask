@@ -1,0 +1,19 @@
+CRITICAL - 2023-02-08 20:48:46 --> Undefined variable $Take
+in APPPATH/Views/sales/trx_buyxtakey.php on line 247.
+ 1 APPPATH/Views/sales/trx_buyxtakey.php(247): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_buyxtakey.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/BuyXTakeY.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\BuyXTakeY->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 23:21:29 --> Array to string conversion
+in APPPATH/Models/MySalesModel.php on line 684.
+ 1 APPPATH/Models/MySalesModel.php(684): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuyXTakeY.php(26): App\Models\MySalesModel->buyxtakey_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\BuyXTakeY->buyxtakey_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

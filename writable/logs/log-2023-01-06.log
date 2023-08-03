@@ -1,0 +1,380 @@
+CRITICAL - 2023-01-06 00:47:24 --> Undefined variable $start_date
+in APPPATH/Views/sales/trx_dashboard.php on line 107.
+ 1 APPPATH/Views/sales/trx_dashboard.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:58:19 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:59:16 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:10:01 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:10:39 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:10:51 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:16:01 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:17:54 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:18:16 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:26:37 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:28:39 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:32:39 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:35:29 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:35:39 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:35:57 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:37:05 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:37:47 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:48:59 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 02:55:35 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 212.
+ 1 APPPATH/Models/MySalesModel.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:10:46 --> Undefined variable $txt_ddate
+in APPPATH/Models/MySalesModel.php on line 117.
+ 1 APPPATH/Models/MySalesModel.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:15:03 --> Undefined variable $txt_ddate
+in APPPATH/Models/MySalesModel.php on line 117.
+ 1 APPPATH/Models/MySalesModel.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:15:27 --> Undefined variable $txt_date
+in APPPATH/Models/MySalesModel.php on line 117.
+ 1 APPPATH/Models/MySalesModel.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:21:11 --> Undefined array key "_start_date"
+in APPPATH/Models/MySalesModel.php on line 122.
+ 1 APPPATH/Models/MySalesModel.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 19:23:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select start_date from gw_promo_hd) _start_date' at line 1 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(118): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-06 19:27:56 --> Undefined array key "_start_date"
+in APPPATH/Models/MySalesModel.php on line 123.
+ 1 APPPATH/Models/MySalesModel.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:54:07 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 120.
+ 1 APPPATH/Models/MySalesModel.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:55:01 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 120.
+ 1 APPPATH/Models/MySalesModel.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:55:56 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 120.
+ 1 APPPATH/Models/MySalesModel.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:53:00 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 120.
+ 1 APPPATH/Models/MySalesModel.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:06:25 --> Array to string conversion
+in APPPATH/Models/MySalesModel.php on line 234.
+ 1 APPPATH/Models/MySalesModel.php(234): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:10:54 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 102.
+ 1 APPPATH/Models/MySalesModel.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:16:57 --> Undefined variable $sampledata
+in APPPATH/Models/MySalesModel.php on line 100.
+ 1 APPPATH/Models/MySalesModel.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:17:10 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 123.
+ 1 APPPATH/Models/MySalesModel.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:18:12 --> Undefined variable $default_end_date
+in APPPATH/Models/MySalesModel.php on line 121.
+ 1 APPPATH/Models/MySalesModel.php(121): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:33:07 --> Undefined array key "_enddate"
+in APPPATH/Models/MySalesModel.php on line 126.
+ 1 APPPATH/Models/MySalesModel.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:33:35 --> Undefined array key "_enddate"
+in APPPATH/Models/MySalesModel.php on line 126.
+ 1 APPPATH/Models/MySalesModel.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:33:54 --> Array to string conversion
+in APPPATH/Models/MySalesModel.php on line 127.
+ 1 APPPATH/Models/MySalesModel.php(127): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:52:56 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/MySalesModel.php on line 128.
+ 1 APPPATH/Models/MySalesModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:04:15 --> Undefined array key "_enddate"
+in APPPATH/Models/MySalesModel.php on line 124.
+ 1 APPPATH/Models/MySalesModel.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:04:25 --> Undefined variable $_enddate
+in APPPATH/Models/MySalesModel.php on line 126.
+ 1 APPPATH/Models/MySalesModel.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:06:30 --> Undefined variable $_enddate
+in APPPATH/Models/MySalesModel.php on line 126.
+ 1 APPPATH/Models/MySalesModel.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(28): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:26:20 --> Trying to access array offset on value of type null
+in APPPATH/Views/sales/trx_promo.php on line 44.
+ 1 APPPATH/Views/sales/trx_promo.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:51:34 --> Trying to access array offset on value of type null
+in APPPATH/Views/sales/trx_promo.php on line 44.
+ 1 APPPATH/Views/sales/trx_promo.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:52:31 --> Trying to access array offset on value of type null
+in APPPATH/Views/sales/trx_promo.php on line 44.
+ 1 APPPATH/Views/sales/trx_promo.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:55:17 --> Trying to access array offset on value of type null
+in APPPATH/Views/sales/trx_promo.php on line 44.
+ 1 APPPATH/Views/sales/trx_promo.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

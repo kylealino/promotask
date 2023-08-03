@@ -1,0 +1,224 @@
+CRITICAL - 2022-12-12 02:10:21 --> Cannot redeclare App\Controllers\Md_article::Windex()
+in APPPATH\Controllers\Md_article.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 02:16:19 --> Cannot redeclare App\Controllers\Md_article::Windex()
+in APPPATH\Controllers\Md_article.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 18:02:29 --> Cannot redeclare App\Controllers\Md_article::Windex()
+in APPPATH\Controllers\Md_article.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 18:02:35 --> Cannot redeclare App\Controllers\Md_article::Windex()
+in APPPATH\Controllers\Md_article.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 18:02:46 --> Cannot redeclare App\Controllers\Md_article::Windex()
+in APPPATH\Controllers\Md_article.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 18:03:11 --> Cannot redeclare App\Controllers\Md_article::Windex()
+in APPPATH\Controllers\Md_article.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 18:03:51 --> Cannot redeclare App\Controllers\Md_article::Windex()
+in APPPATH\Controllers\Md_article.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-12-12 18:25:02 --> mysqli_sql_exception: Table 'medbroc.k_articlemaster' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select recid,AR...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select recid,AR...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select recid,AR...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select recid,AR...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(476): App\Models\MyLibzDBModel->myoa_sql_exec('select recid,AR...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-12 18:27:01 --> mysqli_sql_exception: Table 'medbroc.k_articlemaster' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select recid,AR...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select recid,AR...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select recid,AR...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select recid,AR...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(476): App\Models\MyLibzDBModel->myoa_sql_exec('select recid,AR...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-12 18:32:15 --> mysqli_sql_exception: Table 'medbroc.k_articlemaster' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select recid,AR...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select recid,AR...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select recid,AR...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select recid,AR...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(476): App\Models\MyLibzDBModel->myoa_sql_exec('select recid,AR...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-12 18:33:56 --> mysqli_sql_exception: Table 'medbroc.k_articlemaster' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select recid,AR...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select recid,AR...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select recid,AR...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select recid,AR...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(476): App\Models\MyLibzDBModel->myoa_sql_exec('select recid,AR...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-12 19:38:28 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\t\t\tinsert in...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\t\t\tinsert in...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\t\t\tinsert in...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\t\t\tinsert in...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(512): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\t\t\tinsert in...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-12 19:39:57 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\t\t\tinsert in...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\t\t\tinsert in...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\t\t\tinsert in...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\t\t\tinsert in...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(512): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\t\t\tinsert in...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-12 19:45:47 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\t\t\tinsert in...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\t\t\tinsert in...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\t\t\tinsert in...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\t\t\tinsert in...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(512): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\t\t\tinsert in...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-12 19:50:42 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\t\t\tinsert in...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\t\t\tinsert in...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\t\t\tinsert in...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\t\t\tinsert in...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(512): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\t\t\tinsert in...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-12 19:57:25 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\t\t\tinsert in...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\t\t\tinsert in...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\t\t\tinsert in...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\t\t\tinsert in...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(512): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\t\t\tinsert in...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 21:05:13 --> Undefined constant "meunitc"
+in APPPATH\Views\kmd\kartprof.php on line 142.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 4 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 21:05:20 --> Undefined constant "meunitc"
+in APPPATH\Views\kmd\kartprof.php on line 142.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 4 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 21:06:04 --> Undefined constant "meunitc"
+in APPPATH\Views\kmd\kartprof.php on line 171.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 4 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 21:06:30 --> Undefined constant "meunitc"
+in APPPATH\Views\kmd\kartprof.php on line 171.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 4 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 21:07:40 --> Undefined constant "meunitc"
+in APPPATH\Views\kmd\kartprof.php on line 173.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 4 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 21:48:55 --> syntax error, unexpected token ","
+in APPPATH\Views\kmd\kartprof.php on line 172.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 21:49:14 --> syntax error, unexpected token ","
+in APPPATH\Views\kmd\kartprof.php on line 171.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 21:49:17 --> syntax error, unexpected token ","
+in APPPATH\Views\kmd\kartprof.php on line 171.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 21:49:22 --> syntax error, unexpected token ","
+in APPPATH\Views\kmd\kartprof.php on line 171.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,311 @@
+CRITICAL - 2022-12-27 01:42:48 --> Trying to access array offset on value of type null
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 57.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 02:40:44 --> Unsupported operand types: string + int
+in APPPATH/Models/MyFgPackingModel.php on line 188.
+ 1 APPPATH/Controllers/Fg_packing.php(28): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 02:40:55 --> Unsupported operand types: string + int
+in APPPATH/Models/MyFgPackingModel.php on line 188.
+ 1 APPPATH/Controllers/Fg_packing.php(28): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:53:40 --> Undefined variable $txt_promotrxno
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 72.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:54:11 --> Undefined variable $txt_promotrxno
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 72.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:54:12 --> Undefined variable $txt_promotrxno
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 72.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:54:12 --> Undefined variable $txt_promotrxno
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 72.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:54:12 --> Undefined variable $txt_promotrxno
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 72.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:54:13 --> Undefined variable $txt_promotrxno
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 72.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:54:13 --> Undefined variable $txt_promotrxno
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 72.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:55:49 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 90.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Fg_packing.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:57:44 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 90.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Fg_packing.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:57:45 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 90.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Fg_packing.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:57:45 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 90.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Fg_packing.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:57:45 --> Object of class DateTime could not be converted to string
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 90.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Fg_packing.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:58:04 --> date() expects at least 1 argument, 0 given
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 26.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(26): date()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:59:32 --> Undefined variable $is_fixed_price
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 104.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:02:29 --> Undefined variable $mpohd_rid
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 173.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:04:00 --> Undefined variable $mpohd_rid
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 173.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:11:29 --> Undefined variable $mpohd_rid
+in APPPATH/Views/mtap/fgpack/trx-fg-pack.php on line 164.
+ 1 APPPATH/Views/mtap/fgpack/trx-fg-pack.php(164): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mtap/fgpack/trx-fg-pack.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Fg_packing.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 21:11:57 --> mysqli_sql_exception: Unknown column 'c.recid' in 'field list' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Views/mtap/fgpack/trx-fg-pack.php(170): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/View/View.php(213): include('...')
+#6 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#8 /mdevs/promotask/app/Controllers/Fg_packing.php(21): view()
+#9 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#11 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#12 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-27 21:14:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+                              ap2.`gw_fg_pack_dt` a
+                    ...' at line 6 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Views/mtap/fgpack/trx-fg-pack.php(163): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/View/View.php(213): include('...')
+#6 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#8 /mdevs/promotask/app/Controllers/Fg_packing.php(21): view()
+#9 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#11 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#12 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-27 21:14:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+                              ap2.`gw_fg_pack_dt` a
+                    ...' at line 6 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Views/mtap/fgpack/trx-fg-pack.php(163): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/View/View.php(213): include('...')
+#6 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#8 /mdevs/promotask/app/Controllers/Fg_packing.php(21): view()
+#9 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#11 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#12 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-27 21:14:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+                              ap2.`gw_fg_pack_dt` a
+                    ...' at line 6 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Views/mtap/fgpack/trx-fg-pack.php(163): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/View/View.php(213): include('...')
+#6 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#8 /mdevs/promotask/app/Controllers/Fg_packing.php(21): view()
+#9 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#11 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#12 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-27 21:14:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+                              ap2.`gw_fg_pack_dt` a
+                    ...' at line 6 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Views/mtap/fgpack/trx-fg-pack.php(163): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/View/View.php(213): include('...')
+#6 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#8 /mdevs/promotask/app/Controllers/Fg_packing.php(21): view()
+#9 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#11 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#12 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-27 21:14:38 --> mysqli_sql_exception: Unknown column 'a.promohd_rid' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Views/mtap/fgpack/trx-fg-pack.php(163): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/View/View.php(213): include('...')
+#6 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#8 /mdevs/promotask/app/Controllers/Fg_packing.php(21): view()
+#9 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#11 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#12 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}

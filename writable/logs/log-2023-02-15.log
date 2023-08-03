@@ -1,0 +1,24 @@
+CRITICAL - 2023-02-15 02:23:38 --> Undefined variable $cb_fix_value
+in APPPATH/Models/MySalesModel.php on line 1473.
+ 1 APPPATH/Models/MySalesModel.php(1473): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Voucher.php(26): App\Models\MySalesModel->voucher_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Voucher->voucher_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 02:23:43 --> Undefined variable $cb_fix_value
+in APPPATH/Models/MySalesModel.php on line 1473.
+ 1 APPPATH/Models/MySalesModel.php(1473): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Voucher.php(26): App\Models\MySalesModel->voucher_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Voucher->voucher_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 02:24:25 --> Undefined variable $mitemc
+in APPPATH/Models/MySalesModel.php on line 1526.
+ 1 APPPATH/Models/MySalesModel.php(1526): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Voucher.php(26): App\Models\MySalesModel->voucher_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Voucher->voucher_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

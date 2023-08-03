@@ -1,0 +1,17 @@
+~~~CREATE ANOTHER CHECKBOX FOR PERCENTAGE~~~
+
+    -if fixed price is selected, discount will be open for input in details
+    -if percentage is selected, discount amount will be open for input details
+
+~~~ADD ANOTHER VALIDATION~~~
+    -user can put another promo if there is still an existing promo for an item
+
+~~~DASHBOARD~~~
+
+    -show existing promo on going. 
+    
+~~~PROGRESS~~~
+
+    -create  switch that is cannot be checked both
+    -setup columns for `is_discount_percent` in header and `is_discount_amount` in details
+     

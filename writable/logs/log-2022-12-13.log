@@ -1,0 +1,99 @@
+CRITICAL - 2022-12-13 00:20:38 --> syntax error, unexpected variable "$meunitpack"
+in APPPATH\Views\kmd\kartprof.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:21:07 --> syntax error, unexpected variable "$meunitpack"
+in APPPATH\Views\kmd\kartprof.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:23:01 --> syntax error, unexpected variable "$meunitpack"
+in APPPATH\Views\kmd\kartprof.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:24:06 --> syntax error, unexpected variable "$meunitpack"
+in APPPATH\Views\kmd\kartprof.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:24:10 --> syntax error, unexpected variable "$meunitpack"
+in APPPATH\Views\kmd\kartprof.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/kartprof', [], true)
+ 3 APPPATH\Controllers\Md_article.php(97): view('kmd/kartprof')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 01:21:16 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyMDArticleModel.php(420): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 01:26:22 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyMDArticleModel.php(420): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 01:26:34 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyMDArticleModel.php(420): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 01:26:41 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyMDArticleModel.php(420): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 01:30:55 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyMDArticleModel.php(420): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 01:50:33 --> Undefined array key 1
+in APPPATH\Models\MyLibzDBModel.php on line 123.
+ 1 APPPATH\Models\MyLibzDBModel.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\MyLibzDBModel.php', 123)
+ 2 APPPATH\Models\MyMDArticleModel.php(452): App\Models\MyLibzDBModel->logs_modi_audit([...], 'medbroc', '`k_articlemaster`', 'MATITEM_UREC', 'ABAG1512', ' recid = 52 ')
+ 3 APPPATH\Controllers\Md_article.php(103): App\Models\MyMDArticleModel->Kprof_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kprof_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,114 @@
+ERROR - 2022-12-26 18:14:54 --> mysqli_sql_exception: Unknown column 'CTRL_GWFGPASTCKCDE' in 'field list' in /mdevs/mytestapp/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/mytestapp/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/mytestapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/mytestapp/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/mytestapp/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/mytestapp/app/Models/MyDatumModel.php(75): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/mytestapp/app/Models/MyFgPackingModel.php(589): App\Models\MyDatumModel->get_ctr_new_dr()
+#6 /mdevs/mytestapp/app/Controllers/Fg_packing.php(69): App\Models\MyFgPackingModel->fgpack_barcde_gnrtion()
+#7 /mdevs/mytestapp/system/CodeIgniter.php(927): App\Controllers\Fg_packing->barcde_gnrtion()
+#8 /mdevs/mytestapp/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /mdevs/mytestapp/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /mdevs/mytestapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-26 19:57:40 --> Undefined array key "ART_PARTNO"
+in APPPATH/Views/masterdata/md-article-recs.php on line 93.
+ 1 APPPATH/Views/masterdata/md-article-recs.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/masterdata/md-article-recs.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/masterdata/md-article.php(38): view()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/masterdata/md-article.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Md_article.php(19): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Md_article->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 23:16:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM ap2.`mst_articles` aa
+		...' at line 3 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(406): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-26 23:16:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM ap2.`mst_articles` aa
+		...' at line 3 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(406): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-26 23:16:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM ap2.`mst_articles` aa
+		...' at line 3 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(406): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-26 23:16:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM ap2.`mst_articles` aa
+		...' at line 3 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(406): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-26 23:17:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM ap2.`mst_articles` aa
+		...' at line 3 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(406): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-26 23:20:29 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH/Controllers/MySearchData.php on line 412.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-26 23:20:30 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH/Controllers/MySearchData.php on line 410.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-26 23:20:31 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH/Controllers/MySearchData.php on line 412.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-26 23:20:38 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH/Controllers/MySearchData.php on line 412.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-26 23:22:44 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH/Controllers/MySearchData.php on line 412.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,0 +1,28 @@
+*validation for input type discount where fixed price discount will not be greater than 75
+
+*fix download ouput to  (DONE)
+
+    promodiscountcode to - promo_trxno - discountvalue
+    PD2301090000000004-10
+    
+    discount name to everthing @ discount value
+    Everything @ 10.00
+
+*set default time to start time 8:00am to end time 11:59pm (DONE)
+
+*items must be inserted in same promo date but must not be the same item. 
+
+*create another column for discounted total.
+
+	
+
+
+ if (empty($mdisc)) {
+                    echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Info.<br/></strong><strong>Error</strong>Please enter a discount value.<br/>[$cmat_code]</div>";
+                    die();
+                }
+
+                if ($mdisc <= 76) {
+                    echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Info.<br/></strong><strong>Error</strong>Discount value must not be greater than 75%<br/>[$cmat_code]</div>";
+                    die();
+                }

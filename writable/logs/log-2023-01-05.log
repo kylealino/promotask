@@ -1,0 +1,540 @@
+CRITICAL - 2023-01-05 00:07:26 --> Undefined variable $is_discount_percent
+in APPPATH/Views/sales/trx_promo.php on line 107.
+ 1 APPPATH/Views/sales/trx_promo.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 00:08:39 --> Undefined variable $is_discount_percent
+in APPPATH/Views/sales/trx_promo.php on line 112.
+ 1 APPPATH/Views/sales/trx_promo.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 18:52:35 --> Undefined variable $rlist
+in APPPATH/Views/sales/trx_promo.php on line 123.
+ 1 APPPATH/Views/sales/trx_promo.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 18:57:54 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/sales/trx_promo.php on line 122.
+ 1 APPPATH/Views/sales/trx_promo.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 18:58:30 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/sales/trx_promo.php on line 122.
+ 1 APPPATH/Views/sales/trx_promo.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 19:51:02 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 18.
+ 1 APPPATH/Views/MyDashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 19:51:30 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 18.
+ 1 APPPATH/Views/MyDashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 20:20:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 7 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(57): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(41): App\Models\MySalesModel->promo_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_recs()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 20:28:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 7 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(57): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(41): App\Models\MySalesModel->promo_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_recs()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-05 20:39:08 --> Undefined array key "recid"
+in APPPATH/Views/MyDashboard.php on line 86.
+ 1 APPPATH/Views/MyDashboard.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_dashboard_vw()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:39:37 --> Undefined array key "recid"
+in APPPATH/Views/MyDashboard.php on line 86.
+ 1 APPPATH/Views/MyDashboard.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_dashboard_vw()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:39:48 --> Undefined variable $bgcolor
+in APPPATH/Views/MyDashboard.php on line 85.
+ 1 APPPATH/Views/MyDashboard.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_dashboard_vw()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:39:58 --> Undefined variable $mtkn_fgpacktr
+in APPPATH/Views/MyDashboard.php on line 91.
+ 1 APPPATH/Views/MyDashboard.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_dashboard_vw()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:47:38 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->dashboardindex()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:49:48 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:49:50 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:49:51 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:52:09 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 20:54:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Home.php(22): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 20:55:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Home.php(22): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 20:55:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Home.php(22): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 20:56:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Home.php(22): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 20:56:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Home.php(22): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 20:58:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Home.php(22): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-05 21:09:05 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:09:17 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:11:50 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:11:54 --> Undefined variable $npage_curr
+in APPPATH/Views/MyDashboard.php on line 27.
+ 1 APPPATH/Views/MyDashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/MyDashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 21:19:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 21:21:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 21:21:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 21:23:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 21:23:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 21:24:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 21:24:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-05 21:30:58 --> Undefined variable $npage_curr
+in APPPATH/Views/sales/trx_dashboard.php on line 18.
+ 1 APPPATH/Views/sales/trx_dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 21:31:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-05 21:31:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10,10' at line 8 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(535): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_dashboard.php(23): App\Models\MySalesModel->promo_dashboard_rec_view()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-05 21:32:16 --> Undefined array key "BRNCH_NAME"
+in APPPATH/Views/sales/trx_dashboard.php on line 79.
+ 1 APPPATH/Views/sales/trx_dashboard.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:33:47 --> Undefined array key "BRNCH_NAME"
+in APPPATH/Views/sales/trx_dashboard.php on line 79.
+ 1 APPPATH/Views/sales/trx_dashboard.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:33:48 --> Undefined array key "BRNCH_NAME"
+in APPPATH/Views/sales/trx_dashboard.php on line 79.
+ 1 APPPATH/Views/sales/trx_dashboard.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:33:49 --> Undefined array key "BRNCH_NAME"
+in APPPATH/Views/sales/trx_dashboard.php on line 79.
+ 1 APPPATH/Views/sales/trx_dashboard.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:49:56 --> Undefined array key "BRNCH_NAME"
+in APPPATH/Views/sales/trx_dashboard.php on line 74.
+ 1 APPPATH/Views/sales/trx_dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:58:38 --> Undefined variable $mtkn_fgpacktr
+in APPPATH/Views/sales/trx_dashboard.php on line 88.
+ 1 APPPATH/Views/sales/trx_dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:58:55 --> Undefined array key "BRNCH_NAME"
+in APPPATH/Views/sales/trx_dashboard.php on line 88.
+ 1 APPPATH/Views/sales/trx_dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:59:02 --> Undefined array key ""
+in APPPATH/Views/sales/trx_dashboard.php on line 88.
+ 1 APPPATH/Views/sales/trx_dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_dashboard.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

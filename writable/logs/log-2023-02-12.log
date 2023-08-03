@@ -1,0 +1,62 @@
+CRITICAL - 2023-02-12 19:05:11 --> Undefined variable $mtkn_branch
+in APPPATH/Models/MySalesModel.php on line 1207.
+ 1 APPPATH/Models/MySalesModel.php(1207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Deposit.php(26): App\Models\MySalesModel->deposit_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->deposit_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 19:07:44 --> Undefined variable $cb_fix_value
+in APPPATH/Models/MySalesModel.php on line 1334.
+ 1 APPPATH/Models/MySalesModel.php(1334): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Deposit.php(26): App\Models\MySalesModel->deposit_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->deposit_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 19:08:08 --> Undefined variable $buyxtakey_trxno
+in APPPATH/Models/MySalesModel.php on line 1340.
+ 1 APPPATH/Models/MySalesModel.php(1340): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Deposit.php(26): App\Models\MySalesModel->deposit_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->deposit_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 19:10:07 --> Undefined variable $buyxtakey_trxno
+in APPPATH/Models/MySalesModel.php on line 1394.
+ 1 APPPATH/Models/MySalesModel.php(1394): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Deposit.php(26): App\Models\MySalesModel->deposit_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->deposit_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-12 19:47:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(`salesdate`),
+                            `sales`,
+                         ...' at line 5 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(1387): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Deposit.php(26): App\Models\MySalesModel->deposit_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->deposit_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-12 19:52:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(`salesdate`),
+                            `sales`,
+                         ...' at line 5 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(1387): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Deposit.php(26): App\Models\MySalesModel->deposit_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->deposit_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

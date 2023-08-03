@@ -1,0 +1,4 @@
+Branch Code	PromoBuyXTakeYCode	PromoBuyXTakeY_Name	start_date	end_date	quantity	take	is_discount_percent	is_discount_amount	is_fixed_price	value	Product_Barcode_Buy	Product_Barcode_Take	disable
+E	PV000058	BUY 1 TAKE 1	2023-02-18 08:00:00	2023-02-19 23:59:00	5	3	0	0	1	0	133100935000	2320014851101	0
+E	PV000058	BUY 1 TAKE 1	2023-02-18 08:00:00	2023-02-19 23:59:00	3	3	0	0	1	0	2330027033101	1023034504202	0
+E	PV000058	BUY 1 TAKE 1	2023-02-18 08:00:00	2023-02-19 23:59:00	1	1	0	0	1	0	1023694051702	1023034504402	0

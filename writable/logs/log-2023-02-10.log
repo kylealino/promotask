@@ -1,0 +1,593 @@
+CRITICAL - 2023-02-10 01:44:13 --> Undefined array key "recid"
+in APPPATH/Controllers/MySearchData.php on line 144.
+ 1 APPPATH/Controllers/MySearchData.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:44:14 --> Undefined array key "recid"
+in APPPATH/Controllers/MySearchData.php on line 144.
+ 1 APPPATH/Controllers/MySearchData.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:44:17 --> Undefined array key "recid"
+in APPPATH/Controllers/MySearchData.php on line 144.
+ 1 APPPATH/Controllers/MySearchData.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:03:21 --> Undefined variable $mymelibsys
+in APPPATH/Views/sales/trx_deposit.php on line 88.
+ 1 APPPATH/Views/sales/trx_deposit.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Deposit.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:03:59 --> Call to a member function getBranch() on null
+in APPPATH/Views/sales/trx_deposit.php on line 89.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Deposit.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:05:10 --> Call to a member function getBranch() on null
+in APPPATH/Views/sales/trx_deposit.php on line 89.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Deposit.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:06:30 --> Undefined array key 3
+in APPPATH/Models/MyDBNamesModel.php on line 10.
+ 1 APPPATH/Models/MyDBNamesModel.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Mymelibsys_Model.php(11): App\Models\MyDBNamesModel->medb()
+ 3 SYSTEMPATH/Config/Factories.php(129): App\Models\Mymelibsys_Model->__construct()
+ 4 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+ 5 SYSTEMPATH/Common.php(809): CodeIgniter\Config\Factories::models()
+ 6 APPPATH/Views/sales/trx_deposit.php(10): model()
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Deposit.php(21): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:06:44 --> Undefined variable $brnch_id
+in APPPATH/Views/sales/trx_deposit.php on line 89.
+ 1 APPPATH/Views/sales/trx_deposit.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Deposit.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 19:07:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=
+	FROM pansamantala.`mst_companyBranch` aa
+	WHERE' at line 3 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(619): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-02-10 19:07:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=
+	FROM ap2.`mst_companyBranch` aa
+	WHERE' at line 3 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(619): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-02-10 19:08:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(618): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-02-10 19:09:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(618): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-02-10 19:14:20 --> Trying to access array offset on value of type null
+in APPPATH/Views/sales/trx_deposit.php on line 119.
+ 1 APPPATH/Views/sales/trx_deposit.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Deposit.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:14:54 --> Trying to access array offset on value of type null
+in APPPATH/Views/sales/trx_deposit.php on line 119.
+ 1 APPPATH/Views/sales/trx_deposit.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Deposit.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 19:24:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''}' at line 4 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(619): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-02-10 19:24:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(619): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-02-10 19:25:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(619): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-02-10 19:27:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(619): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-02-10 19:27:13 --> Trying to access array offset on value of type null
+in APPPATH/Views/sales/trx_deposit.php on line 119.
+ 1 APPPATH/Views/sales/trx_deposit.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Deposit.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 19:29:59 --> mysqli_sql_exception: Unknown column 'bb.recid' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/Mymelibsys_Model.php(623): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Views/sales/trx_deposit.php(89): App\Models\Mymelibsys_Model->getBranch()
+#6 /mdevs/promotask/system/View/View.php(213): include('...')
+#7 /mdevs/promotask/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /mdevs/promotask/system/Common.php(1134): CodeIgniter\View\View->render()
+#9 /mdevs/promotask/app/Controllers/Deposit.php(21): view()
+#10 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Deposit->index()
+#11 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#12 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#13 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-02-10 19:30:29 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:30:33 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:30:48 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:31:02 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:33:31 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:33:36 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:33:37 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:35:01 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:35:13 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:35:29 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:47:02 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:47:19 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:47:54 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:48:08 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:53:19 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:53:22 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 19:53:30 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 20:17:40 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 20:20:25 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 20:23:07 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-10 20:23:17 --> mysqli_sql_exception: Unknown column 'aa.brnch_id' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(151): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->deposit()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-10 23:06:25 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Models/MyLibzSysModel.php on line 58.
+ 1 APPPATH/Models/MyLibzSysModel.php(58): count()
+ 2 APPPATH/Views/sales/trx_deposit.php(134): App\Models\MyLibzSysModel->mypopulist_2()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Deposit.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 23:08:59 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Models/MyLibzSysModel.php on line 58.
+ 1 APPPATH/Models/MyLibzSysModel.php(58): count()
+ 2 APPPATH/Views/sales/trx_deposit.php(134): App\Models\MyLibzSysModel->mypopulist_2()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Deposit.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 23:30:15 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Models/MyLibzSysModel.php on line 58.
+ 1 APPPATH/Models/MyLibzSysModel.php(58): count()
+ 2 APPPATH/Views/sales/trx_deposit.php(134): App\Models\MyLibzSysModel->mypopulist_2()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Deposit.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 23:30:49 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Models/MyLibzSysModel.php on line 58.
+ 1 APPPATH/Models/MyLibzSysModel.php(58): count()
+ 2 APPPATH/Views/sales/trx_deposit.php(134): App\Models\MyLibzSysModel->mypopulist_2()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Deposit.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 23:31:28 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Models/MyLibzSysModel.php on line 58.
+ 1 APPPATH/Models/MyLibzSysModel.php(58): count()
+ 2 APPPATH/Views/sales/trx_deposit.php(134): App\Models\MyLibzSysModel->mypopulist_2()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Deposit.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 23:31:36 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Models/MyLibzSysModel.php on line 58.
+ 1 APPPATH/Models/MyLibzSysModel.php(58): count()
+ 2 APPPATH/Views/sales/trx_deposit.php(134): App\Models\MyLibzSysModel->mypopulist_2()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_deposit.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Deposit.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Deposit->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,37 @@
+CRITICAL - 2023-01-12 00:23:04 --> Undefined variable $mdiscperc
+in APPPATH/Models/MySalesModel.php on line 216.
+ 1 APPPATH/Models/MySalesModel.php(216): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 00:24:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from
+                gw_promo_hd a 
+                join
+                gw_p...' at line 6 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(528): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(74): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-12 00:25:29 --> mysqli_sql_exception: Duplicate column name 'time' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(579): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(74): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

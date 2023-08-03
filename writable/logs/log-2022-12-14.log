@@ -1,0 +1,849 @@
+ERROR - 2022-12-14 00:34:34 --> mysqli_sql_exception: Table 'medbroc.gw_fg_pack_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\MyInventory.php(19): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MyInventory->Kindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInventory))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-14 00:36:20 --> Undefined variable $bgcolor
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 182.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bgcolor', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 182)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\MyInventory.php(19): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MyInventory->Kindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInventory))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 00:36:44 --> Undefined variable $bgcolor
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 182.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bgcolor', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 182)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\MyInventory.php(19): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MyInventory->Kindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInventory))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 00:36:48 --> mysqli_sql_exception: Table 'medbroc.gw_fg_pack_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\MyInventory.php(19): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MyInventory->Kindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInventory))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 00:39:33 --> mysqli_sql_exception: Table 'medbroc.gw_fg_pack_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(112): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 00:39:35 --> mysqli_sql_exception: Table 'medbroc.gw_fg_pack_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(112): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 00:41:06 --> mysqli_sql_exception: Table 'medbroc.gw_fg_pack_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(112): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 00:41:16 --> mysqli_sql_exception: Table 'medbroc.gw_fg_pack_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(112): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 00:41:32 --> mysqli_sql_exception: Table 'medbroc.gw_fg_pack_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(112): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-14 00:45:37 --> Unmatched '}'
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 129.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 3 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 00:46:00 --> Undefined variable $mtkn_active_wshe_id
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 39.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_active_wshe_id', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 00:46:23 --> Undefined variable $rdt
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 124.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdt', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 00:46:40 --> Undefined variable $mylibzsys
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 184.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mylibzsys', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 00:56:45 --> mysqli_sql_exception: Table 'medbroc.gw_po_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpo\trx-purchase-order.php(399): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-p...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(119): view('mtap/fgpo/trx-p...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 00:57:06 --> mysqli_sql_exception: Table 'medbroc.gw_po_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpo\trx-purchase-order.php(399): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-p...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(119): view('mtap/fgpo/trx-p...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-14 01:04:57 --> Undefined variable $txt_po_cls_rid
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 32.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $txt_po_cls_rid', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:05:20 --> Undefined variable $mtkn_active_wshe_id
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 90.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_active_wshe_id', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:05:30 --> Undefined variable $mtkn_vndsrtr
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 120.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_vndsrtr', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 120)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:05:40 --> Undefined variable $terms
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 164.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $terms', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 164)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:05:51 --> Undefined variable $bgcolor
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 226.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bgcolor', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 226)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:06:07 --> Undefined variable $nporecs
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 227.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nporecs', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 227)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:06:17 --> Undefined variable $rdt
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 230.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdt', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 230)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:07:04 --> Undefined variable $rdt
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 239.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdt', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 239)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 01:11:12 --> mysqli_sql_exception: Table 'medbroc.gw_rm_po_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\rmpo\trx-rm-purchase-order.php(399): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/rmpo/trx-r...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(126): view('mtap/rmpo/trx-r...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KRPOindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 01:16:33 --> mysqli_sql_exception: Table 'medbroc.gw_rm_po_dt' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\rmpo\trx-rm-purchase-order.php(399): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/rmpo/trx-r...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(126): view('mtap/rmpo/trx-r...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KRPOindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-14 01:23:03 --> Undefined variable $txt_po_cls_rid
+in APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php on line 31.
+ 1 APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $txt_po_cls_rid', 'APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/rmpo/trx-rm-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(126): view('mtap/rmpo/trx-rm-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:23:24 --> Undefined variable $mtkn_active_wshe_id
+in APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php on line 89.
+ 1 APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_active_wshe_id', 'APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/rmpo/trx-rm-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(126): view('mtap/rmpo/trx-rm-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:23:34 --> Undefined variable $mtkn_vndsrtr
+in APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php on line 119.
+ 1 APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_vndsrtr', 'APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/rmpo/trx-rm-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(126): view('mtap/rmpo/trx-rm-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:23:47 --> Undefined variable $bgcolor
+in APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php on line 225.
+ 1 APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bgcolor', 'APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php', 225)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/rmpo/trx-rm-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(126): view('mtap/rmpo/trx-rm-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:24:01 --> Undefined variable $nporecs
+in APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php on line 226.
+ 1 APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nporecs', 'APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php', 226)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/rmpo/trx-rm-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(126): view('mtap/rmpo/trx-rm-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:25:36 --> Undefined variable $rdt
+in APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php on line 247.
+ 1 APPPATH\Views\mtap\rmpo\trx-rm-purchase-order.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdt', 'APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php', 247)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\rmpo\\trx-rm-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/rmpo/trx-rm-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(126): view('mtap/rmpo/trx-rm-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KRPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 02:40:28 --> Undefined variable $mecustname
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 131.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mecustname', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 02:52:07 --> Undefined variable $mydatum
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 11.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mydatum', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:44:39 --> Undefined constant "matcode"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 131.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 4 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:01:53 --> Unclosed '{' on line 143
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 768.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 3 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:02:37 --> Unclosed '{' on line 143
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 768.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 3 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:03:39 --> syntax error, unexpected token "}"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 149.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 3 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:05:36 --> syntax error, unexpected token "}"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 150.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 3 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:11:53 --> Undefined variable $mpohd_rid
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 133.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mpohd_rid', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 133)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 19:14:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+                              medbroc.`mst_article` b    
+              ...' at line 6 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(139): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(112): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 19:15:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+                              medbroc.`mst_article` b    
+
+             ...' at line 6 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(138): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(112): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-14 19:18:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+                              medbroc.`mst_article` b    
+              ...' at line 4 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n              ...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(137): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(112): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-14 19:19:38 --> Undefined array key "matcode"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 152.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "matcode"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 152)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:30:09 --> Undefined array key "matcode"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 150.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "matcode"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:40:59 --> Undefined array key "matcode"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 150.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "matcode"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:42:45 --> Undefined array key "matcode"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 150.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "matcode"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:44:53 --> syntax error, unexpected token "}"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 145.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 3 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:45:05 --> syntax error, unexpected token "}"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 145.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 3 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:45:40 --> Undefined variable $rrecc
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 156.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rrecc', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 156)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:58:30 --> Undefined variable $rdt
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 156.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdt', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 156)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:14:17 --> Undefined array key "matcode"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 156.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "matcode"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 156)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:18:20 --> Undefined array key "matcode"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 156.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "matcode"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 156)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 21:07:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:07:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:07:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:07:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:07:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:07:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:10:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:10:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:10:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:10:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:10:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:10:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:10:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-14 21:10:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(concat(aa.recid,'mysyztemmy'),384) mtkn_rid 
+		FROM medbroc.`mst_article` aa...' at line 3 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(121): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->prod_items_art_code()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 23:13:14 --> Undefined variable $rdt
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 154.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdt', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:14:13 --> Undefined variable $mtkn_artmtr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 154.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_artmtr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:17:11 --> Undefined variable $mtkn_artmtr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 154.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_artmtr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Md_article.php(112): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KFGindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

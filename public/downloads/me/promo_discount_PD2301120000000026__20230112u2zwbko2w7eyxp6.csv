@@ -1,0 +1,2 @@
+BRANCH CODE	PromoDiscountCode	PromoDiscount_Name	start_date	start_time	end_date	end_time	is_discount_percent	is_fixed_price	value	Product Barcode	disable
+E0116	PD2301120000000026-10	Less 10%	2023-01-10	08:00:00	2023-01-04	23:59:00	1	0	10	9021326305003	FALSE

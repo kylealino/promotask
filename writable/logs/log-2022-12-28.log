@@ -1,0 +1,599 @@
+CRITICAL - 2022-12-28 00:32:19 --> Invalid file: sales/.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Promo_discount.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:32:24 --> Invalid file: sales/.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Promo_discount.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 01:37:38 --> Invalid file: sales/trx_promo2.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Promo_discount.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 01:44:36 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 95.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 01:45:51 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 95.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:00:51 --> Unsupported operand types: string + int
+in APPPATH/Models/MySalesModel.php on line 173.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:03:33 --> Unsupported operand types: string + int
+in APPPATH/Models/MySalesModel.php on line 173.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:05:10 --> Undefined variable $plnt_id
+in APPPATH/Models/MySalesModel.php on line 176.
+ 1 APPPATH/Models/MySalesModel.php(176): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:05:40 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 184.
+ 1 APPPATH/Models/MySalesModel.php(184): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:16:45 --> Undefined variable $plnt_id
+in APPPATH/Models/MySalesModel.php on line 175.
+ 1 APPPATH/Models/MySalesModel.php(175): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:17:16 --> Undefined variable $cmat_code
+in APPPATH/Models/MySalesModel.php on line 177.
+ 1 APPPATH/Models/MySalesModel.php(177): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:19:10 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 184.
+ 1 APPPATH/Models/MySalesModel.php(184): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:20:34 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 185.
+ 1 APPPATH/Models/MySalesModel.php(185): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:30:17 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 180.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:30:48 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 180.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:36:14 --> Undefined variable $mtkn_fgpacktr
+in APPPATH/Views/sales/trx_promo_rec.php on line 62.
+ 1 APPPATH/Views/sales/trx_promo_rec.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo_rec.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_vw()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:38:12 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 180.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:38:26 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 180.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:40:17 --> Undefined variable $nqty
+in APPPATH/Models/MySalesModel.php on line 185.
+ 1 APPPATH/Models/MySalesModel.php(185): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:40:57 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 186.
+ 1 APPPATH/Models/MySalesModel.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:41:22 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 188.
+ 1 APPPATH/Models/MySalesModel.php(188): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:42:19 --> Undefined variable $nqty
+in APPPATH/Models/MySalesModel.php on line 193.
+ 1 APPPATH/Models/MySalesModel.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:42:51 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 180.
+ 1 APPPATH/Models/MySalesModel.php(180): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:43:05 --> Undefined variable $branch_code
+in APPPATH/Models/MySalesModel.php on line 224.
+ 1 APPPATH/Models/MySalesModel.php(224): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:45:26 --> Undefined variable $start_date
+in APPPATH/Models/MySalesModel.php on line 226.
+ 1 APPPATH/Models/MySalesModel.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:45:54 --> Undefined variable $end_date
+in APPPATH/Models/MySalesModel.php on line 229.
+ 1 APPPATH/Models/MySalesModel.php(229): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:46:27 --> Undefined variable $muser
+in APPPATH/Models/MySalesModel.php on line 233.
+ 1 APPPATH/Models/MySalesModel.php(233): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 02:47:18 --> mysqli_sql_exception: Unknown column 'promo_trxno' in 'field list' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(237): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 02:58:35 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 244.
+ 1 APPPATH/Models/MySalesModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 02:59:39 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 244.
+ 1 APPPATH/Models/MySalesModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:00:16 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 245.
+ 1 APPPATH/Models/MySalesModel.php(245): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:06:23 --> mysqli_sql_exception: Unknown column '_trxno' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(242): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-28 18:08:27 --> mysqli_sql_exception: Unknown column '_trxno' in 'where clause' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(242): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 18:09:38 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 244.
+ 1 APPPATH/Models/MySalesModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:09:59 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 244.
+ 1 APPPATH/Models/MySalesModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:12:28 --> Unsupported operand types: string + int
+in APPPATH/Models/MySalesModel.php on line 257.
+ 1 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:15:07 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 244.
+ 1 APPPATH/Models/MySalesModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:15:39 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 244.
+ 1 APPPATH/Models/MySalesModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:33:51 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 244.
+ 1 APPPATH/Models/MySalesModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:34:03 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 244.
+ 1 APPPATH/Models/MySalesModel.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:39:32 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 245.
+ 1 APPPATH/Models/MySalesModel.php(245): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:39:55 --> Undefined variable $rr
+in APPPATH/Models/MySalesModel.php on line 243.
+ 1 APPPATH/Models/MySalesModel.php(243): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:40:34 --> Undefined array key 6
+in APPPATH/Models/MySalesModel.php on line 259.
+ 1 APPPATH/Models/MySalesModel.php(259): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:41:04 --> Undefined variable $discount_value
+in APPPATH/Models/MySalesModel.php on line 272.
+ 1 APPPATH/Models/MySalesModel.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:42:56 --> Undefined variable $prod_barcode
+in APPPATH/Models/MySalesModel.php on line 274.
+ 1 APPPATH/Models/MySalesModel.php(274): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:43:46 --> Undefined variable $is_disabled
+in APPPATH/Models/MySalesModel.php on line 276.
+ 1 APPPATH/Models/MySalesModel.php(276): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:44:12 --> Undefined variable $is_disabled
+in APPPATH/Models/MySalesModel.php on line 277.
+ 1 APPPATH/Models/MySalesModel.php(277): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:44:22 --> Undefined variable $muser
+in APPPATH/Models/MySalesModel.php on line 278.
+ 1 APPPATH/Models/MySalesModel.php(278): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:44:39 --> Undefined variable $encd
+in APPPATH/Models/MySalesModel.php on line 279.
+ 1 APPPATH/Models/MySalesModel.php(279): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:44:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`promohd_rid` 
+                            ) values(
+                        ...' at line 9 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(286): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-28 18:47:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`promohd_rid` 
+                            ) values(
+                        ...' at line 9 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(285): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-28 19:27:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as time(0)),
+                        '07:26',
+                        '2022-1...' at line 14 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(242): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-28 19:29:02 --> mysqli_sql_exception: Unknown column 'cast(start_time as time(0))' in 'field list' in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(242): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 20:49:01 --> Undefined array key "recid"
+in APPPATH/Controllers/MySearchData.php on line 75.
+ 1 APPPATH/Controllers/MySearchData.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 20:49:02 --> Undefined array key "recid"
+in APPPATH/Controllers/MySearchData.php on line 75.
+ 1 APPPATH/Controllers/MySearchData.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 20:51:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order BY BRNCH_NAME limit 50' at line 17 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(80): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-28 20:51:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order BY BRNCH_CODE limit 50' at line 17 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(80): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-28 20:51:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order BY BRNCH_CODE limit 50' at line 17 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(80): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-28 21:02:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order BY BRNCH_OCODE2 limit 50' at line 17 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(80): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-28 21:02:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order BY BRNCH_OCODE2 limit 50' at line 17 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(80): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-28 21:02:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order BY BRNCH_OCODE2 limit 50' at line 17 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(80): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 21:03:46 --> Undefined array key "BRNCH_OCODE2"
+in APPPATH/Controllers/MySearchData.php on line 95.
+ 1 APPPATH/Controllers/MySearchData.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 21:13:22 --> Undefined array key "recid"
+in APPPATH/Controllers/MySearchData.php on line 73.
+ 1 APPPATH/Controllers/MySearchData.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 21:13:56 --> Undefined array key "__mdata"
+in APPPATH/Controllers/MySearchData.php on line 74.
+ 1 APPPATH/Controllers/MySearchData.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 21:17:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM ap2.`mst_companyBranch` aa
+		JOIN
+		ap2.`mst_company` bb
+		ON
+		(aa.`COM...' at line 6 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(74): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-28 21:18:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM ap2.`mst_companyBranch` aa
+
+		WHERE (aa.`BRNCH_NAME` like '%%' or aa.`BR...' at line 6 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Controllers/MySearchData.php(71): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

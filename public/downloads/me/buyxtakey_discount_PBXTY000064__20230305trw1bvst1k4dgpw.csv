@@ -1,0 +1,4 @@
+Branch Code	PromoBuyXTakeYCode	PromoBuyXTakeY_Name	start_date	end_date	quantity	take	is_discount_percent	is_discount_amount	is_fixed_price	value	Product_Barcode_Buy	Product_Barcode_Take	disable
+E	PBXTY000064-1	BUY 1 TAKE 1	2023-03-06 08:00:00	2023-03-07 23:59:00	1	1	0	0	1	0	9022519307303	9022300454506	0
+E	PBXTY000064-2	BUY 1 TAKE 1	2023-03-06 08:00:00	2023-03-07 23:59:00	1	1	0	0	1	0	4800365671466	0764460991956	0
+E	PBXTY000064-3	BUY 1 TAKE 1	2023-03-06 08:00:00	2023-03-07 23:59:00	1	1	0	0	1	0	0745110182566	9022399020203	0

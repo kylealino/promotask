@@ -1,0 +1,2 @@
+Branch Code	PromoDiscountCode	PromoDiscount_Name	start_date	end_date	is_discount_percent	is_discount_amount	is_fixed_price	value	Product Barcode	disable
+E0012	PD2302150000000001-30	Everything @ 30	2023-02-0108:00:00	2023-02-0223:59:00	0	\N	1	30	4800086048820	FALSE

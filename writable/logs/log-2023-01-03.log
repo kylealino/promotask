@@ -1,0 +1,1049 @@
+CRITICAL - 2023-01-03 00:01:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(801): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:03:21 --> Undefined variable $mpohd_rid
+in APPPATH/Models/MySalesModel.php on line 800.
+ 1 APPPATH/Models/MySalesModel.php(800): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:04:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(801): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:05:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(801): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:06:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(801): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:07:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(792): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:09:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(801): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:09:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(801): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:10:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(802): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:10:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(802): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:10:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(802): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:10:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(802): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:11:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(805): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:13:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(804): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:15:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(805): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:16:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(805): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:41:27 --> Trying to access array offset on value of type null
+in APPPATH/Views/sales/trx_promo.php on line 43.
+ 1 APPPATH/Views/sales/trx_promo.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/trx_promo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Promo_discount.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 01:18:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(805): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 01:18:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(805): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:34:09 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:34:58 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:35:12 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:35:21 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:40:17 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:46:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:47:09 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:06:11 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:06:53 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:06:54 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:06:54 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:06:54 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:07:05 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:07:05 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:07:05 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:07:06 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:07:06 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:07:06 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:07:53 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:07:54 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(13): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:08:32 --> Invalid file: upload_success.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(41): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:09:06 --> Undefined variable $uploaded_fileinfo
+in APPPATH/Views/sales/upload_success.php on line 11.
+ 1 APPPATH/Views/sales/upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/upload_success.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(41): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:10:49 --> Undefined variable $uploaded_fileinfo
+in APPPATH/Views/sales/upload_success.php on line 11.
+ 1 APPPATH/Views/sales/upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/upload_success.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(42): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:12:42 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(31): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:14:01 --> Invalid file: upload_form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(31): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:17:31 --> Undefined variable $uploaded_fileinfo
+in APPPATH/Views/sales/upload_success.php on line 11.
+ 1 APPPATH/Views/sales/upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/sales/upload_success.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(41): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Upload->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:42:42 --> Too few arguments to function App\Models\MySalesModel::download_promo_barcode(), 1 passed in /mdevs/promotask/app/Controllers/Promo_discount.php on line 79 and exactly 2 expected
+in APPPATH/Models/MySalesModel.php on line 783.
+ 1 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:42:48 --> Too few arguments to function App\Models\MySalesModel::download_promo_barcode(), 1 passed in /mdevs/promotask/app/Controllers/Promo_discount.php on line 79 and exactly 2 expected
+in APPPATH/Models/MySalesModel.php on line 783.
+ 1 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:44:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:47:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:48:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:49:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:50:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:50:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:50:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:50:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:51:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:54:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:56:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:57:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:59:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:01:39 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 806.
+ 1 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:01:53 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 806.
+ 1 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:08:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:10:06 --> Undefined variable $mpohd_rid
+in APPPATH/Models/MySalesModel.php on line 807.
+ 1 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:10:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:11:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(815): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:13:17 --> Undefined constant "App\Models\console"
+in APPPATH/Models/MySalesModel.php on line 804.
+ 1 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:14:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:15:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:16:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:17:28 --> Undefined variable $mtkn_fgpacktr
+in APPPATH/Controllers/Promo_discount.php on line 80.
+ 1 APPPATH/Controllers/Promo_discount.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:18:10 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 803.
+ 1 APPPATH/Models/MySalesModel.php(803): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:18:35 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 803.
+ 1 APPPATH/Models/MySalesModel.php(803): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(80): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:21:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(807): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:21:13 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 803.
+ 1 APPPATH/Models/MySalesModel.php(803): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:21:41 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:22:11 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:22:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:22:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(806): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:22:31 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:23:05 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:23:06 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:23:06 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:23:06 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:23:06 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:23:07 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:23:07 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:23:07 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 843.
+ 1 APPPATH/Models/MySalesModel.php(843): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:24:08 --> Undefined variable $file_name
+in APPPATH/Models/MySalesModel.php on line 839.
+ 1 APPPATH/Models/MySalesModel.php(839): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:24:49 --> Undefined variable $cfilelnk
+in APPPATH/Models/MySalesModel.php on line 827.
+ 1 APPPATH/Models/MySalesModel.php(827): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:25:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(792): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:25:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(792): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:25:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(792): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:26:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(792): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:28:58 --> Undefined variable $mpohd_rid
+in APPPATH/Models/MySalesModel.php on line 790.
+ 1 APPPATH/Models/MySalesModel.php(790): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:29:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(790): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:47:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/MySalesModel.php(790): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 21:50:47 --> Undefined variable $chtmljs
+in APPPATH/Models/MySalesModel.php on line 793.
+ 1 APPPATH/Models/MySalesModel.php(793): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-03 22:00:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`promo_trxno` = 'PD2301030000000010'' at line 6 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(800): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-03 23:03:11 --> mysqli_sql_exception: Can't create/write to file '/mdevs/promotask/public/downloads/me/purch_barcodereports_PD2301030000000010__20230103r4olycqbypjepec.csv' (Errcode: 13 "Permission denied") in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(837): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-03 23:04:22 --> mysqli_sql_exception: Can't create/write to file '/mdevs/promotask/public/downloads/me/promo_discount_PD2301030000000010__20230103dapk66dsj84407r.csv' (Errcode: 13 "Permission denied") in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(837): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-03 23:09:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a.`recid`,a.`promo_trxno`
+            FROM
+                ap2.`gw_promo_hd` ...' at line 2 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(800): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-03 23:09:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a.`recid`,a.`promo_trxno`
+            FROM
+                ap2.`gw_promo_hd` ...' at line 2 in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(800): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-03 23:11:18 --> mysqli_sql_exception: Can't create/write to file '/mdevs/promotask/public/downloads/me/promo_discount_PD2301030000000010__2023010389n4qwy126rq9aj.csv' (Errcode: 13 "Permission denied") in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(837): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-03 23:11:39 --> mysqli_sql_exception: Can't create/write to file '/mdevs/promotask/public/downloads/me/promo_discount_PD2301030000000010__2023010359br7r0jdwk0nyy.csv' (Errcode: 13 "Permission denied") in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(836): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-03 23:18:09 --> mysqli_sql_exception: Can't create/write to file '/mdevs/promotask/public/downloads/me/promo_discount_PD2301030000000010__20230103p3zc5h9rzcbhuxe.csv' (Errcode: 13 "Permission denied") in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(836): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-03 23:26:28 --> mysqli_sql_exception: Can't create/write to file '/mdevs/promotask/public/downloads/me/promo_discount_PD2301030000000010__20230103gzj7j9hvbi4qzcj.csv' (Errcode: 13 "Permission denied") in /mdevs/promotask/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /mdevs/promotask/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mdevs/promotask/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mdevs/promotask/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mdevs/promotask/app/Models/MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query()
+#4 /mdevs/promotask/app/Models/MySalesModel.php(836): App\Models\MyLibzDBModel->myoa_sql_exec()
+#5 /mdevs/promotask/app/Controllers/Promo_discount.php(79): App\Models\MySalesModel->download_promo_barcode()
+#6 /mdevs/promotask/system/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_barcode_dl_proc()
+#7 /mdevs/promotask/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /mdevs/promotask/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /mdevs/promotask/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-03 23:34:13 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 170.
+ 1 APPPATH/Models/MySalesModel.php(170): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 23:35:23 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 170.
+ 1 APPPATH/Models/MySalesModel.php(170): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 23:59:50 --> Trying to access array offset on value of type null
+in APPPATH/Models/MySalesModel.php on line 170.
+ 1 APPPATH/Models/MySalesModel.php(170): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo_discount.php(27): App\Models\MySalesModel->promo_entry_save()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Promo_discount->promo_save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

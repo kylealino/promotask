@@ -1,0 +1,1784 @@
+CRITICAL - 2022-12-16 00:00:14 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 00:16:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack`
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 00:20:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack`
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 00:21:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack`
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 00:21:32 --> Undefined array key "is_bcodegen"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 76.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_bcodegen"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 00:25:43 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php on line 32
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 00:25:53 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 00:25:57 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php on line 32
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 00:35:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack`
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 00:37:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 00:45:35 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 00:45:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 00:45:38 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 00:45:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 00:45:50 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 00:45:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 00:45:53 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 00:45:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 00:45:56 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 00:45:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 00:48:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 12 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(50): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 00:52:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+          medbroc.`mst_fgpack` a
+      ) oa' at line 11 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(62): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 00:57:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 11 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(49): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 01:16:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 11 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(49): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 01:18:18 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 26.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(31): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:18:24 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 26.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(31): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 01:19:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 11 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(49): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 01:31:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 11 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(49): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 01:31:19 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:38:06 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:38:06 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:38:06 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:38:06 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:38:07 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:38:07 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:43:09 --> Undefined variable $str
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 348.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $str', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 348)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:46:12 --> Undefined variable $str
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 348.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $str', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 348)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:49:38 --> Undefined variable $i
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 348.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 348)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:51:57 --> Undefined variable $q
+in APPPATH\Views\mtap\fgpo\trx-purchase-order.php on line 409.
+ 1 APPPATH\Views\mtap\fgpo\trx-purchase-order.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $q', 'APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php', 409)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpo\\trx-purchase-order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpo/trx-purchase-order', [], true)
+ 5 APPPATH\Controllers\Md_article.php(119): view('mtap/fgpo/trx-purchase-order')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->KPOindex()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:55:01 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:55:01 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:55:01 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:55:15 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:55:15 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:55:16 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 01:55:16 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 01:59:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        ) oa' at line 11 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        selec...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(48): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n        selec...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 02:00:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+            medbroc.`mst_fgpack` a
+        
+        )' at line 11 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select count(*)...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(47): App\Models\MyLibzDBModel->myoa_sql_exec('select count(*)...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 02:01:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 14 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select count(*)...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(47): App\Models\MyLibzDBModel->myoa_sql_exec('select count(*)...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 02:08:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 14 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select count(*)...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(47): App\Models\MyLibzDBModel->myoa_sql_exec('select count(*)...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 02:09:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 14 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select count(*)...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(47): App\Models\MyLibzDBModel->myoa_sql_exec('select count(*)...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 02:12:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 14 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select count(*)...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(47): App\Models\MyLibzDBModel->myoa_sql_exec('select count(*)...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 02:14:38 --> Undefined array key "__nrecs"
+in APPPATH\Models\MyFgPackingModel.php on line 53.
+ 1 APPPATH\Models\MyFgPackingModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "__nrecs"', 'APPPATH\\Models\\MyFgPackingModel.php', 53)
+ 2 APPPATH\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:14:44 --> Undefined array key "__nrecs"
+in APPPATH\Models\MyFgPackingModel.php on line 53.
+ 1 APPPATH\Models\MyFgPackingModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "__nrecs"', 'APPPATH\\Models\\MyFgPackingModel.php', 53)
+ 2 APPPATH\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 02:15:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 14 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select count(*)...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(47): App\Models\MyLibzDBModel->myoa_sql_exec('select count(*)...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 02:16:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 14 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select count(*)...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(47): App\Models\MyLibzDBModel->myoa_sql_exec('select count(*)...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 02:26:45 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:31:24 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php on line 32
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:32:26 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 26.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:14 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:20 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:21 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:21 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:21 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:24 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:24 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:25 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:25 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:25 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:33:25 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 27.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:34:46 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 26.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:36:40 --> Undefined variable $rlist
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 38.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rlist', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:37:21 --> Undefined variable $rlist
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 38.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rlist', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:38:08 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 69.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 3 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:38:32 --> Undefined variable $bgcolor
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 38.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bgcolor', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:38:46 --> Undefined variable $mtkn_fgpacktr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 40.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_fgpacktr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:39:46 --> Undefined variable $row
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 43.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:41:06 --> Undefined variable $row
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 62.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:41:46 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:41:49 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 02:43:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 14 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('select count(*)...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(47): App\Models\MyLibzDBModel->myoa_sql_exec('select count(*)...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(31): App\Models\MyFGPackingModel->fgpack_rec_view(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 02:44:50 --> mysqli_sql_exception: Table 'medbroc.mst_wshe' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(625): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n            S...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(60): App\Models\MyFGPackingModel->download_fgpack_barcode(NULL, NULL)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_barcode_dl_proc()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 02:46:41 --> Undefined variable $mylibzsys
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 22.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mylibzsys', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 02:46:43 --> Undefined variable $mylibzsys
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php on line 22.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-appr.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mylibzsys', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-appr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-appr', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(42): view('mtap/fgpack/trx-fg-pack-appr')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw_appr()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 02:59:09 --> mysqli_sql_exception: Table 'medbroc.mst_wshe' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(625): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n            S...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(60): App\Models\MyFGPackingModel->download_fgpack_barcode(NULL, NULL)
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_barcode_dl_proc()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 18:06:14 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:06:20 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:07:04 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:11:00 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 25.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:26:06 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:29:07 --> Undefined variable $npage_count
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_count', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:33:11 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:33:46 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:33:59 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:34:59 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:35:04 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:35:11 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:41:31 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:42:37 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:43:22 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:46:23 --> Undefined variable $npage_curr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 17.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npage_curr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:49:13 --> Undefined variable $rlist
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 62.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rlist', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:11:44 --> Undefined variable $BRANCH
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 132.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $BRANCH', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:12:46 --> Undefined variable $BRANCH
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 132.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $BRANCH', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:13:03 --> Undefined variable $BRANCH
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 132.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $BRANCH', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:15:19 --> Undefined variable $BRANCH
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 132.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $BRANCH', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:16:25 --> syntax error, unexpected variable "$NO_OF_PACKS"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 20.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 3 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:16:58 --> Undefined variable $matcode
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 205.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $matcode', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 205)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:22:31 --> Undefined variable $matcode
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 207.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $matcode', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 207)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:23:28 --> Undefined variable $mtkn_etr
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 338.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mtkn_etr', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 338)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:25:37 --> Undefined variable $maction
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 347.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $maction', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 347)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:38:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:38:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:41:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:50:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:53:30 --> Undefined property: CodeIgniter\View\View::$db_erp
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 205.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db_erp', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 205)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:54:09 --> Undefined property: CodeIgniter\View\View::$medbroc
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 205.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$medbroc', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 205)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:54:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 19:55:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:19:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:20:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:22:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:24:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:33:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:48:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:49:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:50:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 20:53:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:10:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:13:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:14:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:16:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:19:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:19:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:19:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:19:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:19:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:19:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:20:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:20:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:20:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:21:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:21:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:21:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:23:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:23:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:23:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:23:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:23:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Fg_packing.php(26): CodeIgniter\Model->__call('fgpack_entry_save', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:25:41 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(72): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:28:08 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(72): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:43:23 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(73): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:52:43 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(73): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 21:53:04 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 21:55:12 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 23:07:14 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(73): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 23:07:36 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 23:09:39 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 23:15:16 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 23:18:46 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 23:20:32 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 23:23:20 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 23:26:44 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-16 23:27:44 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(73): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 23:28:23 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(142): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-16 23:33:41 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\t\t\t\tinsert i...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\t\t\t\tinsert i...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\t\tinsert i...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\t\tinsert i...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(143): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\t\t\t\tinsert i...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

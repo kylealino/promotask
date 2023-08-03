@@ -1,0 +1,186 @@
+CRITICAL - 2022-12-18 18:33:47 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(73): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 19:34:20 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(73): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 19:34:43 --> Unsupported operand types: string + int
+in APPPATH\Models\MyFgPackingModel.php on line 76.
+ 1 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 19:35:21 --> Unsupported operand types: string + int
+in APPPATH\Models\MyFgPackingModel.php on line 79.
+ 1 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-18 20:30:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tselect coun...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tselect coun...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tselect coun...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tselect coun...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tselect coun...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'asd')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-18 20:30:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tselect coun...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tselect coun...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tselect coun...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tselect coun...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tselect coun...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'asd')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-18 20:41:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tSELECT COUN...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tSELECT COUN...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tSELECT COUN...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tSELECT COUN...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tSELECT COUN...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'as')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-18 20:41:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tSELECT COUN...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tSELECT COUN...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tSELECT COUN...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tSELECT COUN...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tSELECT COUN...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'as')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-18 20:41:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tSELECT COUN...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tSELECT COUN...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tSELECT COUN...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tSELECT COUN...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tSELECT COUN...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'as')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-18 20:43:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tSELECT COUN...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tSELECT COUN...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tSELECT COUN...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tSELECT COUN...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tSELECT COUN...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'as')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-18 20:43:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tSELECT COUN...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tSELECT COUN...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tSELECT COUN...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tSELECT COUN...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tSELECT COUN...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'as')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-18 20:43:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tSELECT COUN...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tSELECT COUN...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tSELECT COUN...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tSELECT COUN...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tSELECT COUN...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'as')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-18 20:50:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'oa' at line 5 in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n\t\tSELECT COUN...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n\t\tSELECT COUN...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\tSELECT COUN...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\r\n\t\tSELECT COUN...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyFgPackingModel.php(42): App\Models\MyLibzDBModel->myoa_sql_exec('\r\n\t\tSELECT COUN...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(38): App\Models\MyFgPackingModel->fgpack_rec_view('1', 10, 'AS')
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_recs()
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-18 21:13:25 --> Invalid file: mtap/fgpack/trx-fg-pack-print.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mtap/fgpack/trx-fg-pack-print.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-print', [], true)
+ 3 APPPATH\Controllers\Fg_packing.php(44): view('mtap/fgpack/trx-fg-pack-print')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_print()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 21:53:32 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(73): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 23:39:46 --> Call to undefined function jQuery()
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 277.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 4 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 23:59:11 --> Invalid file: mtap/fgpack/trx-fg-pack-print.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mtap/fgpack/trx-fg-pack-print.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-print', [], true)
+ 3 APPPATH\Controllers\Fg_packing.php(44): view('mtap/fgpack/trx-fg-pack-print')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_print()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

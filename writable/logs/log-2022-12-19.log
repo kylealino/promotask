@@ -1,0 +1,2126 @@
+CRITICAL - 2022-12-19 01:52:55 --> Invalid file: mtap/fgpack/trx-fg-pack-print.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mtap/fgpack/trx-fg-pack-print.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-print', [], true)
+ 3 APPPATH\Controllers\Fg_packing.php(44): view('mtap/fgpack/trx-fg-pack-print')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_print()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 18:55:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dmyerp'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'dmyerp', 'dmp@$$m3', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#7 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 18:55:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ')
+ 3 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ', 'URI: /mytestapp/index.php/me-fg-packing-vw
+File: D:\\xampp\\webapps\\mytestapp\\app\\Views\\mtap\\fgpack\\trx-fg-pack.php
+Line Number: 223')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 7 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 18:55:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dmyerp'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'dmyerp', 'dmp@$$m3', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#7 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 18:55:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ')
+ 3 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ', 'URI: /mytestapp/index.php/me-fg-packing-vw
+File: D:\\xampp\\webapps\\mytestapp\\app\\Views\\mtap\\fgpack\\trx-fg-pack.php
+Line Number: 223')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 7 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 18:55:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dmyerp'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'dmyerp', 'dmp@$$m3', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#7 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 18:55:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ')
+ 3 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ', 'URI: /mytestapp/index.php/me-fg-packing-vw
+File: D:\\xampp\\webapps\\mytestapp\\app\\Views\\mtap\\fgpack\\trx-fg-pack.php
+Line Number: 223')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 7 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 18:58:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dmyerp'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'dmyerp', 'dmp@$$m3', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#7 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 18:58:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ')
+ 3 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ', 'URI: /mytestapp/index.php/me-fg-packing-vw
+File: D:\\xampp\\webapps\\mytestapp\\app\\Views\\mtap\\fgpack\\trx-fg-pack.php
+Line Number: 223')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 7 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 18:58:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dmyerp'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'dmyerp', 'dmp@$$m3', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#7 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 18:58:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ')
+ 3 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              medbroc.`gw_fg_pack_dt` a
+                          JOIN
+                              medbroc.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              medbroc.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              medbroc.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              medbroc.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ', 'URI: /mytestapp/index.php/me-fg-packing-vw
+File: D:\\xampp\\webapps\\mytestapp\\app\\Views\\mtap\\fgpack\\trx-fg-pack.php
+Line Number: 223')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 7 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:01:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dmyerp'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'dmyerp', 'dmp@$$m3', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#7 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 19:01:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              d_ap2.`gw_fg_pack_dt` a
+                          JOIN
+                              d_ap2.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              d_ap2.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              d_ap2.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              d_ap2.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ')
+ 3 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              d_ap2.`gw_fg_pack_dt` a
+                          JOIN
+                              d_ap2.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              d_ap2.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              d_ap2.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              d_ap2.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ', 'URI: /mytestapp/index.php/me-fg-packing-vw
+File: D:\\xampp\\webapps\\mytestapp\\app\\Views\\mtap\\fgpack\\trx-fg-pack.php
+Line Number: 223')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 7 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:12:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dmyerp'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'dmyerp', 'dmp@$$m3', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#7 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 19:12:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              d_ap2.`gw_fg_pack_dt` a
+                          JOIN
+                              d_ap2.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              d_ap2.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              d_ap2.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              d_ap2.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ')
+ 3 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              d_ap2.`gw_fg_pack_dt` a
+                          JOIN
+                              d_ap2.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              d_ap2.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              d_ap2.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              d_ap2.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ', 'URI: /mytestapp/index.php/me-fg-packing-vw
+File: D:\\xampp\\webapps\\mytestapp\\app\\Views\\mtap\\fgpack\\trx-fg-pack.php
+Line Number: 223')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 7 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:15:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dmyerp'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'dmyerp', 'dmp@$$m3', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect count...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(381): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect count...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Views\kmd\karticle.php(37): App\Models\MyMDArticleModel->view_krecs(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#7 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('kmd/karticle', Array, true)
+#9 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(80): view('kmd/karticle')
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kindex()
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#12 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect count...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(381): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect count...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\app\Views\kmd\karticle.php(37): App\Models\MyMDArticleModel->view_krecs(1, 20)
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('kmd/karticle', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(80): view('kmd/karticle')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-19 19:15:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+		select count(*) __nrecs from (
+		select aa.*,
+		IF(aa.`ART_ISDISABLE` = 1, \'Inactive\',\'Active\') _ART_ISDISABLE,
+		sha2(concat(aa.recid,\'mysyztemmy\'),384) mtkn_arttr 
+		 from d_ap2.`k_articlemaster` aa  
+		) oa
+		')
+ 3 APPPATH\Models\MyMDArticleModel.php(381): App\Models\MyLibzDBModel->myoa_sql_exec('
+		select count(*) __nrecs from (
+		select aa.*,
+		IF(aa.`ART_ISDISABLE` = 1, \'Inactive\',\'Active\') _ART_ISDISABLE,
+		sha2(concat(aa.recid,\'mysyztemmy\'),384) mtkn_arttr 
+		 from d_ap2.`k_articlemaster` aa  
+		) oa
+		', 'URI: /mytestapp/index.php/kyle-materials
+File: D:\\xampp\\webapps\\mytestapp\\app\\Models\\MyMDArticleModel.php
+Line Number: 381')
+ 4 APPPATH\Views\kmd\karticle.php(37): App\Models\MyMDArticleModel->view_krecs(1, 20)
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kmd\\karticle.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/karticle', [], true)
+ 8 APPPATH\Controllers\Md_article.php(80): view('kmd/karticle')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kindex()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:16:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'meredorchad'@'localhost' to database 'd_ap2' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'meredorchad', '112233445566', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'd_ap2' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#3 D:\xampp\webapps\mytestapp\app\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('\n              ...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx...', Array, true)
+#7 D:\xampp\webapps\mytestapp\app\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx...')
+#8 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 19:16:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'd_ap2'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              d_ap2.`gw_fg_pack_dt` a
+                          JOIN
+                              d_ap2.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              d_ap2.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              d_ap2.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              d_ap2.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ')
+ 3 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(223): App\Models\MyLibzDBModel->myoa_sql_exec('
+                          SELECT
+                              a.*,
+                              SHA2(CONCAT(a.`recid`,\'mysyztemmy\'),384) mtkn_podttr,
+                              SHA2(CONCAT(b.`recid`,\'mysyztemmy\'),384) mtkn_artmtr,
+                              b.`ART_DESC`,
+                              b.`ART_NCBM`,
+                              b.`ART_UOM`,
+                              b.`ART_NCONVF`,
+                              SHA2(CONCAT(c.`recid`,\'mysyztemmy\'),384) mtkn_plnt,
+                              SHA2(CONCAT(d.`recid`,\'mysyztemmy\'),384) mtkn_wshe,
+                              c.`plnt_code` AS `wshe_plant`,
+                              d.`wshe_code` AS `wshe_loc`
+                          FROM
+                              d_ap2.`gw_fg_pack_dt` a
+                          JOIN
+                              d_ap2.`mst_article` b
+                          ON
+                              a.`mat_rid` = b.`recid`
+                          JOIN
+                              d_ap2.`mst_plant` c
+                          ON
+                              a.`plnt_id` = c.`recid`
+                          JOIN
+                              d_ap2.`mst_wshe` d
+                          ON
+                              a.`wshe_id` = d.`recid` AND c.`recid` = d.`plnt_id`
+             
+                          JOIN
+                              d_ap2.`gw_fg_pack_hd` h
+                          ON
+                              a.`fgpackhd_rid` = h.`recid`
+                          WHERE
+                             a.`fgpackhd_rid` = \'\'
+                          ORDER BY 
+                              a.`recid`
+                      ', 'URI: /mytestapp/index.php/me-fg-packing-vw
+File: D:\\xampp\\webapps\\mytestapp\\app\\Views\\mtap\\fgpack\\trx-fg-pack.php
+Line Number: 223')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 7 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:23:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'meredorchad'@'localhost' to database 'd_ap2' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'meredorchad', '112233445566', 'd_ap2', 3306, '', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect count...')
+#4 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(381): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect count...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\app\Views\kmd\karticle.php(37): App\Models\MyMDArticleModel->view_krecs(1, 20)
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#7 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('kmd/karticle', Array, true)
+#9 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(80): view('kmd/karticle')
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kindex()
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#12 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'd_ap2' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect count...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyMDArticleModel.php(381): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect count...', 'URI: /mytestapp...')
+#4 D:\xampp\webapps\mytestapp\app\Views\kmd\karticle.php(37): App\Models\MyMDArticleModel->view_krecs(1, 20)
+#5 D:\xampp\webapps\mytestapp\system\View\View.php(213): include('D:\\xampp\\webapp...')
+#6 D:\xampp\webapps\mytestapp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\webapps\mytestapp\system\Common.php(1134): CodeIgniter\View\View->render('kmd/karticle', Array, true)
+#8 D:\xampp\webapps\mytestapp\app\Controllers\Md_article.php(80): view('kmd/karticle')
+#9 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\Md_article->Kindex()
+#10 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+#11 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-19 19:23:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'd_ap2'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('
+		select count(*) __nrecs from (
+		select aa.*,
+		IF(aa.`ART_ISDISABLE` = 1, \'Inactive\',\'Active\') _ART_ISDISABLE,
+		sha2(concat(aa.recid,\'mysyztemmy\'),384) mtkn_arttr 
+		 from d_ap2.`mst_article` aa  
+		) oa
+		')
+ 3 APPPATH\Models\MyMDArticleModel.php(381): App\Models\MyLibzDBModel->myoa_sql_exec('
+		select count(*) __nrecs from (
+		select aa.*,
+		IF(aa.`ART_ISDISABLE` = 1, \'Inactive\',\'Active\') _ART_ISDISABLE,
+		sha2(concat(aa.recid,\'mysyztemmy\'),384) mtkn_arttr 
+		 from d_ap2.`mst_article` aa  
+		) oa
+		', 'URI: /mytestapp/index.php/kyle-materials
+File: D:\\xampp\\webapps\\mytestapp\\app\\Models\\MyMDArticleModel.php
+Line Number: 381')
+ 4 APPPATH\Views\kmd\karticle.php(37): App\Models\MyMDArticleModel->view_krecs(1, 20)
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kmd\\karticle.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kmd/karticle', [], true)
+ 8 APPPATH\Controllers\Md_article.php(80): view('kmd/karticle')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Md_article->Kindex()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Md_article))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 20:21:43 --> Undefined array key "PACK_SERIES"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 90.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PACK_SERIES"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 20:21:44 --> Undefined array key "PACK_SERIES"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 90.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PACK_SERIES"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 20:29:26 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:33 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:33 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:34 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:34 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:34 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:35 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:35 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:35 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:36 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:41 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:29:59 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:30:00 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:30:01 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:30:03 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:30:04 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:31:00 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:31:05 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:31:06 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:31:09 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:31:09 --> mysqli_sql_exception: Unknown column 'bb.myusername' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(435): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:35:25 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:35:51 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:35:53 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:01 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:02 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:03 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:03 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:05 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:06 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:07 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:08 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:08 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:09 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:36:09 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 20:54:37 --> Undefined variable $PACK_SERIES
+in APPPATH\Views\mtap\fgpack\trx-fg-pack.php on line 138.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PACK_SERIES', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php', 138)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(20): view('mtap/fgpack/trx-fg-pack')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 20:56:21 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:22 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:25 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:27 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:31 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:32 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:33 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:34 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:37 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:38 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\t\tSELECT\n\t\t\t\t...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT\n\t\t\t\t...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT\n\t\t\t\t...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT\n\t\t\t\t...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(478): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\t\tSELECT\n\t\t\t\t...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:44 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:56:45 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:58:15 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 20:58:19 --> mysqli_sql_exception: Table 'medbroc.myua_plant' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(436): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userplant_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 21:01:04 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(477): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 21:01:06 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(477): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 21:01:08 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(477): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 21:01:21 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(477): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 21:01:25 --> mysqli_sql_exception: Table 'medbroc.myua_whse' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(477): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->get_userwrhse_access_dropdown()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 21:12:23 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 3 APPPATH\Controllers\MySearchData.php(497): substr(null, 0, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:12:27 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 3 APPPATH\Controllers\MySearchData.php(497): substr(null, 0, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:17:06 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 3 APPPATH\Controllers\MySearchData.php(497): substr(null, 0, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:18:35 --> Undefined array key "PACK_SERIES"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 90.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PACK_SERIES"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:19:37 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 3 APPPATH\Controllers\MySearchData.php(497): substr(null, 0, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:20:30 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'substr(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\MySearchData.php', 497)
+ 3 APPPATH\Controllers\MySearchData.php(497): substr(null, 0, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:23:33 --> mysqli_sql_exception: Unknown column 'aa.BRNCH_SMC_STAT' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\taa....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\taa....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\taa....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\taa....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(519): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\taa....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 21:23:35 --> mysqli_sql_exception: Unknown column 'aa.BRNCH_SMC_STAT' in 'where clause' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\taa....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\taa....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\taa....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\taa....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(519): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\taa....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->companybranch_v()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 21:28:15 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:28:16 --> myauthuser filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('myauthuser')
+ 2 SYSTEMPATH\CodeIgniter.php(446): CodeIgniter\Filters\Filters->enableFilter('myauthuser', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:31:17 --> Undefined property: App\Controllers\MySearchData::$myusermod
+in APPPATH\Controllers\MySearchData.php on line 392.
+ 1 APPPATH\Controllers\MySearchData.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MySearchData::$myusermod', 'APPPATH\\Controllers\\MySearchData.php', 392)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:31:18 --> Undefined property: App\Controllers\MySearchData::$myusermod
+in APPPATH\Controllers\MySearchData.php on line 392.
+ 1 APPPATH\Controllers\MySearchData.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MySearchData::$myusermod', 'APPPATH\\Controllers\\MySearchData.php', 392)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:32:38 --> Undefined variable $str_mkg
+in APPPATH\Controllers\MySearchData.php on line 401.
+ 1 APPPATH\Controllers\MySearchData.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $str_mkg', 'APPPATH\\Controllers\\MySearchData.php', 401)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:32:39 --> Undefined variable $str_mkg
+in APPPATH\Controllers\MySearchData.php on line 401.
+ 1 APPPATH\Controllers\MySearchData.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $str_mkg', 'APPPATH\\Controllers\\MySearchData.php', 401)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:39:08 --> Undefined property: App\Controllers\MySearchData::$myusermod
+in APPPATH\Controllers\MySearchData.php on line 392.
+ 1 APPPATH\Controllers\MySearchData.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MySearchData::$myusermod', 'APPPATH\\Controllers\\MySearchData.php', 392)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:39:49 --> Undefined variable $comp_usr
+in APPPATH\Controllers\MySearchData.php on line 395.
+ 1 APPPATH\Controllers\MySearchData.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comp_usr', 'APPPATH\\Controllers\\MySearchData.php', 395)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 21:55:54 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php on line 1248
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 329.
+ 1 SYSTEMPATH\Database\BaseConnection.php(1248): CodeIgniter\Database\MySQLi\Connection->_escapeString(null)
+ 2 APPPATH\Models\MyFgPackingModel.php(98): CodeIgniter\Database\BaseConnection->escapeString(null)
+ 3 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 23:07:35 --> mysqli_sql_exception: Unknown column 'kk.art_uprice' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tselect \n\t\ta....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tselect \n\t\ta....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tselect \n\t\ta....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect \n\t\ta....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(415): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect \n\t\ta....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 23:07:43 --> mysqli_sql_exception: Unknown column 'kk.art_uprice' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tselect \n\t\ta....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tselect \n\t\ta....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tselect \n\t\ta....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect \n\t\ta....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(415): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect \n\t\ta....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 23:07:44 --> mysqli_sql_exception: Unknown column 'kk.art_uprice' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tselect \n\t\ta....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tselect \n\t\ta....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tselect \n\t\ta....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect \n\t\ta....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(415): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect \n\t\ta....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 23:07:44 --> mysqli_sql_exception: Unknown column 'kk.art_uprice' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tselect \n\t\ta....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tselect \n\t\ta....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tselect \n\t\ta....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect \n\t\ta....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(415): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect \n\t\ta....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 23:07:44 --> mysqli_sql_exception: Unknown column 'kk.art_uprice' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tselect \n\t\ta....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tselect \n\t\ta....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tselect \n\t\ta....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect \n\t\ta....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(415): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect \n\t\ta....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 23:07:45 --> mysqli_sql_exception: Unknown column 'kk.art_uprice' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tselect \n\t\ta....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tselect \n\t\ta....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tselect \n\t\ta....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect \n\t\ta....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(415): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect \n\t\ta....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 23:07:45 --> mysqli_sql_exception: Unknown column 'kk.art_uprice' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tselect \n\t\ta....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tselect \n\t\ta....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tselect \n\t\ta....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect \n\t\ta....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(415): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect \n\t\ta....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 23:11:57 --> mysqli_sql_exception: Unknown column 'kk.art_uprice' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tselect \n\t\ta....', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tselect \n\t\ta....')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tselect \n\t\ta....')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tselect \n\t\ta....')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(415): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tselect \n\t\ta....', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 23:15:55 --> Undefined array key "__mdata"
+in APPPATH\Controllers\MySearchData.php on line 408.
+ 1 APPPATH\Controllers\MySearchData.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "__mdata"', 'APPPATH\\Controllers\\MySearchData.php', 408)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 23:19:53 --> mysqli_sql_exception: Table 'medbroc.mat_articles' doesn't exist in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(395): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 23:20:39 --> mysqli_sql_exception: Unknown column 'aa.CUST_NAME' in 'field list' in D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\webapps\mytestapp\system\Database\MySQLi\Connection.php(292): mysqli->query('\n\t\tSELECT\n\t\t\taa...', 0)
+#1 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\tSELECT\n\t\t\taa...')
+#2 D:\xampp\webapps\mytestapp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\tSELECT\n\t\t\taa...')
+#3 D:\xampp\webapps\mytestapp\app\Models\MyLibzDBModel.php(19): CodeIgniter\Database\BaseConnection->query('\n\t\tSELECT\n\t\t\taa...')
+#4 D:\xampp\webapps\mytestapp\app\Controllers\MySearchData.php(395): App\Models\MyLibzDBModel->myoa_sql_exec('\n\t\tSELECT\n\t\t\taa...', 'URI: /mytestapp...')
+#5 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+#6 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+#7 D:\xampp\webapps\mytestapp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\webapps\mytestapp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 23:26:00 --> Undefined array key "ART_DESC"
+in APPPATH\Controllers\MySearchData.php on line 403.
+ 1 APPPATH\Controllers\MySearchData.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ART_DESC"', 'APPPATH\\Controllers\\MySearchData.php', 403)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:26:01 --> Undefined array key "ART_DESC"
+in APPPATH\Controllers\MySearchData.php on line 403.
+ 1 APPPATH\Controllers\MySearchData.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ART_DESC"', 'APPPATH\\Controllers\\MySearchData.php', 403)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\MySearchData->mat_article()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySearchData))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:27:45 --> Undefined array key "PACK_SERIES"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 90.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PACK_SERIES"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:37:53 --> Undefined array key "PACK_SERIES"
+in APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php on line 90.
+ 1 APPPATH\Views\mtap\fgpack\trx-fg-pack-recs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PACK_SERIES"', 'APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mtap\\fgpack\\trx-fg-pack-recs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('mtap/fgpack/trx-fg-pack-recs', [], true)
+ 5 APPPATH\Controllers\Fg_packing.php(32): view('mtap/fgpack/trx-fg-pack-recs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_vw()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:49:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MyFgPackingModel.php(141): CodeIgniter\Model->__call('get_ctr_new_dr', [...])
+ 4 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:50:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MyFgPackingModel.php(141): CodeIgniter\Model->__call('get_ctr_new_dr', [...])
+ 4 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:53:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MyFgPackingModel.php(141): CodeIgniter\Model->__call('get_ctr_new_dr', [...])
+ 4 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:58:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MyFgPackingModel.php(141): CodeIgniter\Model->__call('get_ctr_new_dr', [...])
+ 4 APPPATH\Controllers\Fg_packing.php(26): App\Models\MyFgPackingModel->fgpack_entry_save()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fg_packing->fgpack_save()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fg_packing))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
